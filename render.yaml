@@ -5,5 +5,7 @@ services:
     buildCommand: ""
     staticPublishPath: .
     envVars:
-      - key: ENTORNO
-        value: laboratorio
+    - key: ENTORNO
+      value: laboratorio
+    - key: NIVEL_LOG
+       value: debug
